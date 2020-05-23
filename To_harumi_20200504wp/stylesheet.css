@@ -1,0 +1,333 @@
+a{
+text-decoration: none !important;
+}
+*{
+  color:#333333;
+}
+
+/* ヘッダー */
+.nav-item span{
+  font-size: 0.8em;
+  color:#28A745;
+}
+
+/*  トップページ*/
+.typelab-top-wrapper{
+  background-image: url(img/four-leaf-clover-3336774_1280.jpg);
+  background-size: cover;
+  margin-top:65px;
+  height:90vh;
+  position: relative;
+  margin-bottom:10vh;
+}
+.typelab-top-wrapper h1{
+  font-size: 30px;
+  bottom:0px;
+  position:absolute;
+  margin:0;
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(0,0,0,0.5);
+}
+.typelab-top-text p{
+  line-height:30px;
+  padding-bottom:10vh;
+}
+.typelab-top-text h2{
+  margin:30px 0;
+}
+.typelab-box{
+}
+
+/*  ４つのボタン*/
+.typelab-btn{
+  height: 200px;
+  margin:0 20px;
+  transition: 0.3s;
+  cursor : pointer;
+  padding: 0;
+  z-index: 10px;
+  background-color: #D1F1CC;
+}
+.typelab-btn span{
+  color:rgba(0,0,0,0.0);
+  font-size: 0.6em;
+  border-top:4px solid #009250;
+  padding-top:10px;
+  margin:0 40px;
+}
+.typelab-btn h2{
+  font-size: 2em;
+  font-weight: bold;
+  color:gray;
+  line-height:50px;
+  text-align: center;
+  padding:70px 0 19px;
+}
+.typelab-btn:hover{
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,.44);
+  background-color:#A6E39D;
+}
+.typelab-btn h2:hover{
+  transition: .15s;
+  padding:63px 0 26px;
+}
+/*  スライドで色々な写真をズームしながらのせる*/
+#slide_wrapp {
+  position: relative;
+  overflow: hidden;
+  padding: 0px;
+}
+#slide_wrapp .slide_item {
+  opacity: 0;
+  transform: scale(1);
+  transition: opacity 2s linear, transform 7.5s linear;
+  position: relative;
+  z-index: 1;
+}
+#slide_wrapp .slide_item:not(:first-child) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#slide_wrapp .slide_item.show_ {
+  opacity: 1;
+}
+#slide_wrapp .slide_item.zoom_ {
+  transform: scale(1.1);
+}
+#slide_wrapp .slide_item img {
+  display: block;
+}
+/*  */
+/*  ４文字タイプページ*/
+/*  */
+.typelab-wrapper{
+  background-image: url(img/header.jpg);
+  background-size: cover;
+  margin-top:65px 0 0 0;
+  height:400px;
+  position: relative;
+  margin-bottom:400px;
+}
+.typelab-wrapper h1{
+  font-size:1.5em;
+  bottom:0;
+  position:absolute;
+  margin:0;
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(0,0,0,0.5);
+}
+.card{
+  width: 800px;
+  position: absolute;
+  top:97%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-3%);
+  transform : translate(-50%,0%);
+  text-align: center;
+}
+.card h2{
+  font-size: 1.5em;
+  color:#23AC0E;
+  padding:20px 0;
+}
+.card p{
+  line-height: 1.8em;
+  color:#59616d;
+  padding:0 20px;
+}
+.card a{
+  margin:20px 0;
+}
+/* お知らせコラム */
+.newscolumm h2{
+  text-align: center;
+  margin-top:100px;
+  font-size: 1.9em;
+  color:#23AC0E;
+  padding:20px 0;
+  font-weight: bold;
+}
+
+.contents-wrapper h3{
+  border-bottom:3px solid #009250;
+  color:#009250;
+  padding: 10px;
+  width:100%;
+  margin-top:50px;
+}
+.contents-wrapper a{
+  color:#555555;
+}
+.contents-wrapper p{
+  font-size: 1em;
+  line-height: 1.8em;
+}
+.contents-wrapper img{
+  margin:20px 0;
+}
+.contents-wrapper li{
+  font-weight: bold;
+  font-size:1.2em;
+  padding-top:10px;
+}
+.contents-wrapper span{
+  border-bottom: 3px solid #CA3C6E;
+}
+
+/*  ボタン大きく*/
+.bigger-btn{
+  width: 300px;
+  height: 80px;
+  font-size: 1.8em;
+  line-height: 70px;
+}
+.bigger-btn:hover{
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,.44);
+}
+footer{
+  height: 10vh;
+  margin-top:20vh;
+}
+footer p{
+  line-height: 10vh;
+  maring-bottom:0 !important;
+}
+
+.top-pic-text h2{
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-top:80px;
+}
+.aboutMe-image{
+  border-radius: 20px;
+}
+
+
+
+/*  */
+/*  サービスページ*/
+/*  */
+.service-wrapper{
+  margin-top:50px;
+}
+.service-contents{
+  padding:30px 10px;
+  border-radius: 5px;
+  margin:10px 10px;
+  border:1px solid #D1F1CC;
+}
+.service-to-company p{
+  font-size: 2em;
+  margin-top:40px;
+  color:#393939;
+}
+.service-contents h4{
+  color:#4C6849;
+  border-bottom: 3px solid #333333;
+  padding-bottom: 10px;
+  width: 90%;
+  margin:auto;
+}
+.service-contents p{
+  color:#4C6849;
+  font-weight: bold;
+  padding-top:30px;
+  font-size: 1.5em;
+}
+.service-contents span{
+  color:#CA3C6E;
+  font-size: 2em;
+}
+.service-btn{
+  margin:auto;
+  margin-top:100px;
+}
+.service-btn a{
+  color: white;
+}
+.service-kome p{
+  margin-top:10px;
+}
+
+/*  */
+/*  あいさつページ*/
+/*  */
+.harumi-img img{
+  margin:0px;
+}
+.contents-wrapper h5{
+  padding: 20px 0;
+}
+.harumi h3{
+  margin:0;
+  font-size: 2.0em;
+  position:relative;
+  width: 300px;
+  margin-left: 10%;
+}
+.harumi span{
+  border: none;
+  font-size:16px;
+}
+.harumi-ja h3{
+  margin:0 0px;
+}
+.harumi-ja p{
+  font-size:0.9em;
+}
+/*  */
+/*  お問い合わせフォーム*/
+/*  */
+.text-left span{
+  color:#D04255;
+}
+.form-checkbox span{
+  color:#393939;
+}
+.contact-wrapper{
+  margin-bottom: 1200px;
+}
+.btn-submit{
+  width: 100px;
+}
+.terms-wrapper{
+  margin-bottom:1700px;
+}
+textarea{
+  width: 100%;
+}
+/* 記事一覧の続きを読むに隙間をあける */
+.post p{
+  margin-top:5px !important;
+}
+/* 日付の下に隙間あける */
+.time{
+  margin-bottom:10px;
+  margin-top:10px;
+}
+/*  サイドバー*/
+.sidebar{
+  margin:50px 0 0 0px;
+}
+.sidebar h2{
+  font-size: 1em;
+  font-weight: bold;
+  padding-left:10px;
+  border-left: 3px solid #142744;
+  margin:30px 0 15px !important;
+}
+.sidebar ul{
+  list-style: none;
+  padding:0 10px;
+}
+.sidebar li{
+  border-top:1px solid #cccccc;
+  padding:2px 10px ;
+}
+.sidebar a{
+  color:#96CB8E;
+}

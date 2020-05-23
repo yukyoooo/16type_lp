@@ -1,0 +1,68 @@
+@media all and (max-width: 1024px) {
+
+.typelab-top-wrapper{
+  height: 600px;
+}
+}
+
+@media (max-width:720px) {
+
+.typelab-top-wrapper{
+  height: 300px;
+}
+.typelab-top-text h2{
+  font-size:1.2em;
+}
+.typelab-top-text p{
+  font-size:0.8em;
+}
+
+/*  4typeのページ*/
+.typelab-wrapper{
+  margin-bottom: 500px;
+  background-image: url(img/four-leaf-clover-3336774_1280.jpg);
+}
+.card{
+  width:340px;
+}
+.card h2{
+  font-size: 1.3em;
+}
+.contents-wrapper h3{
+  font-size: 1.5em;
+}
+.contents-wrapper p{
+  font-size: 0.9em;
+}
+.contents-wrapper li{
+  font-size: 0.9em;
+  padding-top: 15px;
+}
+.harumi h3{
+  font-size: 2em;
+  margin:auto;
+}
+.top-pic-text h2{
+  font-size: 20px;
+}
+
+
+/*  お問い合わせ*/
+.contact-wrapper{
+  margin-bottom: 1300px;
+}
+.terms-wrapper{
+  margin-bottom: 1700px;
+}
+
+.terms-text p{
+  font-size: 0.8em;
+  line-height:1.5em;
+  padding:0;
+}
+.top-vision-text p{
+  padding:0;
+  font-size: 0.9em;
+}
+
+}
