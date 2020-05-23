@@ -12,7 +12,7 @@ Template Name:aboutType
 
     <div class="card shadow mx-auto">
       <div class="card-body">
-        <h2 class="card-title font-weight-bold">「当たり前」の違いを科学する</h2>
+        <h2 class="card-title font-weight-bold">「当たり前」の違いを科学する.</h2>
         <p class="card-text">
           人はみなそれぞれ違った感じ方・考え方・価値観を持っています。ある人にとっての「当たり前」が、他の人には奇妙に映ったり、他の人の「当たり前」が受け入れられないこともありますよね。一般的にはこれらは性格の違いとして認識されていると思いますが、実は、心理学には人それぞれの「当たり前」の違いを分類する理論があります。
         </p>
